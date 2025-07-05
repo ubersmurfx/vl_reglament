@@ -1,0 +1,114 @@
+\pdfoutput=1
+\documentclass[12pt]{article}
+\usepackage[margin=2.5cm, top=1cm]{geometry}
+
+% Required packages
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathrsfs} % Mathematical typesetting and symbols
+\usepackage{enumerate} % Custom enumeration labels
+\usepackage{graphicx} % Figure inclusion
+\usepackage{fancyhdr} % Перемещено сюда
+\usepackage{hyperref} % Hyperlinks for citations, references, and URLs
+\usepackage[numbers,sort&compress]{natbib} % Citation styling
+\usepackage{subcaption} % Captions for subfigures
+\usepackage{xcolor} % Text color
+\usepackage[utf8x]{inputenc} % кодировка
+\usepackage[english,russian]{babel} % добавление русского языка
+\usepackage{cmap} % отображение юникод символов в pdf файле
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{tabularx}
+\usepackage{array} % Для выравнивания по правому краю
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+
+\usetikzlibrary{decorations.pathreplacing}
+
+% Figure and table numbering by section
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\newenvironment{example}[1][]{\begin{ex}[#1]}{\hfill$\blacksquare$\end{ex}} % Add a black box to the end automatically, and accept an optional title argument
+\newtheorem{ex}{Example}[section] % Examples are implemented as a type of Theorem
+
+\AddToShipoutPictureBG{
+    \ifnum\value{page}=1
+        \put(4cm,26cm){\parbox[b][\paperheight]{\paperwidth}{%
+        \fontsize{14}{14}\selectfont % Уменьшаем размер шрифта
+        \color{gray!75} % Делаем текст полупрозрачным (50% серого)
+        Регламент подготовки к соревнованиям Высшая Лига \par}}
+    \fi
+}
+
+\date{} % Добавлено для удаления даты
+\title{Памятка для проведения очного этапа}
+
+\setlist[enumerate,1]{%
+    label=\textbf{\arabic*.},
+    font=\normalfont,                   % Text of the item will be normal font (not bold)
+                                        % Change to font=\bfseries if you want the item text to also be bold
+    leftmargin=2em,                     % Indentation from the left margin
+    itemsep=0.5ex,                      % Space between list items
+    parsep=0ex,                         % Space between paragraphs *within* an item
+    topsep=0.5ex                        % Space before the list starts
+}
+\setlist[enumerate,2]{%
+    label=\textbf{\arabic{enumi}.\arabic*.},
+    font=\normalfont,
+    leftmargin=2.5em,
+    itemsep=0.5ex,
+    parsep=0ex,
+    topsep=0.5ex
+}
+\setlist[enumerate,3]{%
+    label=\textbf{\arabic{enumi}.\arabic{enumii}.\arabic*.},
+    font=\normalfont,
+    leftmargin=3em,
+    itemsep=0.5ex,
+    parsep=0ex,
+    topsep=0.5ex
+}
+%==============================================================================
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace*{-2cm}
+
+
+\raisebox{1cm}{%
+    \begin{minipage}[t]{0.8\textwidth}
+        \begin{enumerate}
+            \item ЦНИИ РТК
+            \begin{enumerate}
+                \item Подготовка протоколов и заданий
+                \item Печать протоколов и заданий
+                \item Погрузка протоколов и заданий
+            \end{enumerate}
+            \item Монтаж: подготовка рабочей зоны
+            \begin{enumerate}
+                \item Расставить столы и стулья
+                \item Пробросить удлинители и кабель каналы
+                \item Протереть полигон
+            \end{enumerate}
+            \item Очный этап
+            \begin{enumerate}
+                \item Провести регистрацию участников, проследить, чтобы все члены команды дошли до площадки
+                \item Распределить команды по рабочим местам
+                \item Собрание капитанов
+                \begin{enumerate}
+                    \item Указать расписание работы площадки
+                    \item Добавить в группу tg
+                    \item Указать где столовая и уборные
+    \item Рассказать про задание и выдать участникам печатное задание
+                \end{enumerate}
+                \item Во время этапа отвечать на вопросы
+            \end{enumerate}
+        \end{enumerate}
+    \end{minipage}%
+}
+
+\vspace{1cm}
+
+\end{document}
