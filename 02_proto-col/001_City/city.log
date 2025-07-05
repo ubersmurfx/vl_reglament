@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=latex 2025.4.1)  30 APR 2025 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=latex 2025.4.1)  5 JUL 2025 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1607,7 +1607,7 @@ Here is how much of TeX's memory you used:
 fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
 >
-Output written on city.pdf (1 page, 86496 bytes).
+Output written on city.pdf (1 page, 88147 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
