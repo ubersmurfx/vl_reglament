@@ -1,0 +1,148 @@
+\pdfoutput=1
+\documentclass[12pt]{article}
+\usepackage[margin=2.5cm, top=1cm]{geometry}
+
+% Required packages
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathrsfs} % Mathematical typesetting and symbols
+\usepackage{enumerate} % Custom enumeration labels
+\usepackage{graphicx} % Figure inclusion
+\usepackage{fancyhdr} % Перемещено сюда
+\usepackage{hyperref} % Hyperlinks for citations, references, and URLs
+\usepackage[numbers,sort&compress]{natbib} % Citation styling
+\usepackage{subcaption} % Captions for subfigures
+\usepackage{xcolor} % Text color
+\usepackage[utf8x]{inputenc} % кодировка
+\usepackage[english,russian]{babel} % добавление русского языка
+\usepackage{cmap} % отображение юникод символов в pdf файле
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{tabularx}
+\usepackage{array} % Для выравнивания по правому краю
+\usepackage{setspace}
+\usepackage{xcolor}
+
+\usetikzlibrary{decorations.pathreplacing}
+
+% Figure and table numbering by section
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\newenvironment{example}[1][]{\begin{ex}[#1]}{\hfill$\blacksquare$\end{ex}} % Add a black box to the end automatically, and accept an optional title argument
+\newtheorem{ex}{Example}[section] % Examples are implemented as a type of Theorem
+
+% Overriding abbrvnat BibTeX template to use the plainurl template's DOI hyperlinks
+\newcommand*{\doi}[1]{\href{https://doi.org/#1}{\tt doi:~#1}}
+\newcommand{\firstArma}{110}
+\newcommand{\secondArma}{110}
+\newcommand{\thirdArma}{110}
+\newcommand{\fourthArma}{110}
+\newcommand{\MasterHoming}{60}
+
+%==============================================================================
+\AddToShipoutPictureBG*{
+    \ifnum\value{page}=1
+        \put(2cm,26cm){\includegraphics[width=1.5cm]{figures/cup.jpg}}
+    \fi
+}
+
+\AddToShipoutPictureBG{
+    \ifnum\value{page}=1
+        \put(4cm,26cm){\parbox[b][\paperheight]{\paperwidth}{%
+        \fontsize{14}{14}\selectfont % Уменьшаем размер шрифта
+        \color{gray!75} % Делаем текст полупрозрачным (50% серого)
+        ««Кубок РТК Высшая лига: МИРЭА», 11-12 октября 2025 г.\par}}
+    \fi
+}
+
+% background
+\date{} % Добавлено для удаления даты
+\title{Протокол для очного этапа \\ Хакатона:«Ледяной вызов»}
+
+%==============================================================================
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace*{-2cm}
+
+\raisebox{1cm}{\begin{minipage}[t]{1\textwidth} % 0.8\textwidth - регулирует ширину minipage
+    \begin{spacing}{1.5} % Устанавливает межстрочный интервал в 1.5 раза
+        \textbf{Команда:} \uline{\hspace*{\fill}} \\
+        \textbf{Участник:} \uline{\hspace*{10cm}} / \uline{\hspace*{\fill}} \\
+        \textbf{Судья:} \uline{\hspace*{10.7cm}} / \uline{\hspace*{\fill}} 
+    \end{spacing}
+    \end{minipage}}
+
+\renewcommand{\arraystretch}{1}
+\vspace*{0.25cm}
+\begin{tabularx}{\textwidth}{|X|c|p{2cm}|}
+    \hline
+    \textbf{Задание} & \textbf{Баллы} & \textbf{Результат}\\
+    \hline
+    Очищена арматура  №1 от снега & \firstArma &  \\
+    \hline
+    Очищена арматура  №2 от снега & \secondArma & \\
+    \hline
+    Очищена арматура  №3 от снега & \thirdArma & \\
+    \hline
+    Очищена арматура  №4 от снега & \fourthArma & \\
+    \hline
+    Выполнен возврат робота на стартовую ячейку & \MasterHoming & \\
+    \hline
+    Вмешательство без штрафа (1) &  & \\
+    \hline
+    \textbf{Штрафы} & \textbf{Баллы} & \textbf{Результат} \\
+    \hline
+\end{tabularx}
+\vspace*{0.25cm}
+
+\vspace*{0.25cm}
+\begin{tabularx}{\textwidth}{|X|c|p{2cm}|}
+    \hline
+    \textbf{Задание} & \textbf{Баллы} & \textbf{Результат}\\
+    \hline
+    Очищена арматура  №1 от снега & \firstArma &  \\
+    \hline
+    Очищена арматура  №2 от снега & \secondArma & \\
+    \hline
+    Очищена арматура  №3 от снега & \thirdArma & \\
+    \hline
+    Очищена арматура  №4 от снега & \fourthArma & \\
+    \hline
+    Выполнен возврат робота на стартовую ячейку & \MasterHoming & \\
+    \hline
+    Вмешательство без штрафа (2) &  & \\
+    \hline
+    \textbf{Штрафы} & \textbf{Баллы} & \textbf{Результат} \\
+    \hline
+\end{tabularx}
+\vspace*{0.25cm}
+
+\vspace*{0.25cm}
+\begin{tabularx}{\textwidth}{|X|c|p{2cm}|}
+    \hline
+    \textbf{Задание} & \textbf{Баллы} & \textbf{Результат}\\
+    \hline
+    Очищена арматура  №1 от снега & \firstArma &  \\
+    \hline
+    Очищена арматура  №2 от снега & \secondArma & \\
+    \hline
+    Очищена арматура  №3 от снега & \thirdArma & \\
+    \hline
+    Очищена арматура  №4 от снега & \fourthArma & \\
+    \hline
+    Выполнен возврат робота на стартовую ячейку & \MasterHoming & \\
+    \hline
+    \textbf{Штрафы} & \textbf{Баллы} & \textbf{Результат} \\
+    \hline
+\end{tabularx}
+\vspace*{0.25cm}
+
+\vspace*{1cm}
+
+\raisebox{1cm}{\begin{minipage}[t]{1\textwidth} % 0.8\textwidth - регулирует ширину minipage
+    \begin{spacing}{1} % Устанавливает межстрочный интервал в 1.5 раза
+        \textbf{Итоговое количество баллов:} \uline{\hspace*{4cm}}  \textbf{Оставшиеся время:} \uline{\hspace*{2cm}} 
+    \end{spacing}
+    \end{minipage}}
+\end{document}
