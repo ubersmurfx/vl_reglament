@@ -21,6 +21,7 @@
 \usepackage{array} % Для выравнивания по правому краю
 \usepackage{setspace}
 \usepackage{xcolor}
+\input{../../footer_options}
 
 \usetikzlibrary{decorations.pathreplacing}
 
@@ -44,15 +45,6 @@
 \AddToShipoutPictureBG*{
     \ifnum\value{page}=1
         \put(2cm,26cm){\includegraphics[width=1.5cm]{figures/cup.jpg}}
-    \fi
-}
-
-\AddToShipoutPictureBG{
-    \ifnum\value{page}=1
-        \put(4cm,26cm){\parbox[b][\paperheight]{\paperwidth}{%
-        \fontsize{14}{14}\selectfont % Уменьшаем размер шрифта
-        \color{gray!75} % Делаем текст полупрозрачным (50% серого)
-        «Кубок РТК Высшая лига:Робо+», 27-28 сентября 2025 г.\par}}
     \fi
 }
 

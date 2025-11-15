@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=latex 2025.4.1)  5 JUL 2025 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.15)  16 NOV 2025 01:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -830,7 +830,7 @@ Now handling font encoding PU ...
 Package: babel 2024/01/07 v24.1 The Babel package
 \babel@savecnt=\count293
 \U@D=\dimen172
-\l@unhyphenated=\language89
+\l@unhyphenated=\language14
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -838,12 +838,16 @@ Package: babel 2024/01/07 v24.1 The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language56). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language56). Reported on input line 108.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
@@ -1382,6 +1386,7 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
+(../../footer_options.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathreplacing.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
@@ -1416,26 +1421,26 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>)
 \openout1 = `city.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1493,7 +1498,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (./city.out) (./city.out)
 \@outlinefile=\write4
@@ -1501,21 +1506,21 @@ Package hyperref Info: Link coloring OFF on input line 62.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \th on input line 62.
+LaTeX Info: Redefining \th on input line 55.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 65
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 58
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -1525,64 +1530,64 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 LaTeX Warning: No \author given.
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 68--75
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 61--68
 [][] 
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 96--96
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 89--89
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 96--96
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 89--89
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 96--98
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 89--91
 [][]
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 118--118
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 111--111
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 118--118
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 111--111
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 118--120
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 111--113
 [][]
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 138--138
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 131--131
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (3.30196pt too wide) in paragraph at lines 138--138
+Overfull \hbox (3.30196pt too wide) in paragraph at lines 131--131
 []|\T2A/cmr/bx/n/12 Результат| 
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 138--140
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 131--133
 [][]
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 141--146
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 134--139
 [][] 
  []
 
 <figures/cup.jpg, id=12, 399.4925pt x 278.03876pt>
 File: figures/cup.jpg Graphic file (type jpg)
 <use figures/cup.jpg>
-Package pdftex.def Info: figures/cup.jpg  used on input line 146.
+Package pdftex.def Info: figures/cup.jpg  used on input line 139.
 (pdftex.def)             Requested size: 42.67912pt x 29.7019pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
 c/dvips/cm-super/cm-super-t2a.enc}
@@ -1596,18 +1601,18 @@ Package rerunfilecheck Info: File `city.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25190 strings out of 474223
- 463401 string characters out of 5748760
- 1950972 words of memory out of 5000000
- 46971 multiletter control sequences out of 15000+600000
+ 25201 strings out of 475656
+ 463651 string characters out of 5787140
+ 1950975 words of memory out of 5000000
+ 46738 multiletter control sequences out of 15000+600000
  569644 words of font info for 76 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 430 hyphenation exceptions out of 8191
  84i,10n,87p,541b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb
 >
-Output written on city.pdf (1 page, 88147 bytes).
+Output written on city.pdf (1 page, 88550 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

@@ -1,0 +1,12 @@
+% competition.tex
+\usepackage{eso-pic}
+\usepackage{xcolor}
+
+\AddToShipoutPictureBG{%
+    \ifnum\value{page}=1
+        \put(4cm,26cm){\parbox[b][\paperheight]{\paperwidth}{%
+        \fontsize{14}{14}\selectfont
+        \color{gray!75}
+        «Кубок РТК Высшая Лига: Сириус», 26-28 ноября 2025 г.\par}}
+    \fi
+}

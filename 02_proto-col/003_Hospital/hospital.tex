@@ -21,6 +21,7 @@
 \usepackage{array} % Для выравнивания по правому краю
 \usepackage{setspace}
 \usepackage{xcolor}
+\input{../../footer_options}
 
 \usetikzlibrary{decorations.pathreplacing}
 
@@ -54,14 +55,6 @@
     \fi
 }
 
-\AddToShipoutPictureBG{
-    \ifnum\value{page}=1
-        \put(4cm,26cm){\parbox[b][\paperheight]{\paperwidth}{%
-        \fontsize{14}{14}\selectfont % Уменьшаем размер шрифта
-        \color{gray!75} % Делаем текст полупрозрачным (50% серого)
-        «Кубок РТК Высшая Лига: ВШЭ», 24-25 мая 2025 г.\par}}
-    \fi
-}
 
 % background
 \date{} % Добавлено для удаления даты
