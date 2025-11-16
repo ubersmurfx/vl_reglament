@@ -54,6 +54,12 @@ cp "$SOURCE_DIR/02_proto-col/001_City/city.pdf" "$PROTOCOL_DIR" 2>/dev/null || e
 cp "$SOURCE_DIR/02_proto-col/002_Garden/garden.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ garden.pdf не найден"
 cp "$SOURCE_DIR/02_proto-col/006_Cuprum/cuprum.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ cuprum.pdf не найден"
 cp "$SOURCE_DIR/02_proto-col/007_IceSnow/icesnow.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ icesnow.pdf не найден"
+cp "$SOURCE_DIR/02_proto-col/001_City_v2/city_v2.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ city_v2.pdf не найден"
+cp "$SOURCE_DIR/02_proto-col/002_Garden_v2/garden_v2.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ garden_v2.pdf не найден"
+cp "$SOURCE_DIR/02_proto-col/006_Cuprum_v2/cuprum_v2.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ cuprum_v2.pdf не найден"
+cp "$SOURCE_DIR/02_proto-col/007_IceSnow_v2/icesnow_v2.pdf" "$PROTOCOL_DIR" 2>/dev/null || echo "  ⚠ icesnow_v2.pdf не найден"
+
+
 
 cp "$SOURCE_DIR/01_reglament/main.pdf" "$REGLAMENT_DIR" 2>/dev/null || echo "  ⚠ main.pdf не найден"
 

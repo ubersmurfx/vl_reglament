@@ -1,0 +1,99 @@
+\pdfoutput=1
+\documentclass[12pt]{article}
+\usepackage[margin=2.5cm, top=1cm]{geometry}
+
+% Required packages
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathrsfs} % Mathematical typesetting and symbols
+\usepackage{enumerate} % Custom enumeration labels
+\usepackage{graphicx} % Figure inclusion
+\usepackage{fancyhdr} % Перемещено сюда
+\usepackage{hyperref} % Hyperlinks for citations, references, and URLs
+\usepackage[numbers,sort&compress]{natbib} % Citation styling
+\usepackage{subcaption} % Captions for subfigures
+\usepackage{xcolor} % Text color
+\usepackage[utf8x]{inputenc} % кодировка
+\usepackage[english,russian]{babel} % добавление русского языка
+\usepackage{cmap} % отображение юникод символов в pdf файле
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{tabularx}
+\usepackage{array} % Для выравнивания по правому краю
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\input{../../footer_options}
+
+\usetikzlibrary{decorations.pathreplacing}
+
+% Figure and table numbering by section
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\newenvironment{example}[1][]{\begin{ex}[#1]}{\hfill$\blacksquare$\end{ex}} % Add a black box to the end automatically, and accept an optional title argument
+\newtheorem{ex}{Example}[section] % Examples are implemented as a type of Theorem
+
+% Overriding abbrvnat BibTeX template to use the plainurl template's DOI hyperlinks
+\newcommand*{\doi}[1]{\href{https://doi.org/#1}{\tt doi:~#1}}
+\newcommand{\WrongButton}{\color{red}-20}
+\newcommand{\firstKZ}{150}
+\newcommand{\secondKZ}{130}
+\newcommand{\thirdKZ}{100}
+\newcommand{\writeButtonsecondKZ}{40}
+\newcommand{\writeButtonfirstKZ}{40}
+\newcommand{\writeButtonthirdKZ}{40}
+
+
+%==============================================================================
+\AddToShipoutPictureBG*{
+    \ifnum\value{page}=1
+        \put(2cm,26cm){\includegraphics[width=1.5cm]{figures/cup.jpg}}
+    \fi
+}
+
+% background
+\date{} % Добавлено для удаления даты
+\title{Протокол для очного этапа \\ Хакатона:«Электролиз меди»}
+
+%==============================================================================
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace*{-1.5cm}
+
+\raisebox{1cm}{\begin{minipage}[t]{1\textwidth} % 0.8\textwidth - регулирует ширину minipage
+    \begin{spacing}{2} % Устанавливает межстрочный интервал в 1.5 раза
+        \textbf{Команда:} \uline{\hspace*{\fill}} \\
+        \textbf{Участник:} \uline{\hspace*{10cm}} / \uline{\hspace*{\fill}} \\
+        \textbf{Судья:} \uline{\hspace*{10.7cm}} / \uline{\hspace*{\fill}} 
+    \end{spacing}
+    \end{minipage}}
+
+
+\vspace*{0.25cm}
+\setlength{\extrarowheight}{12pt}
+\begin{tabularx}{\textwidth}{>{\raggedright}X c *{4}{>{\centering\arraybackslash}p{1.3cm}}}
+    \toprule
+    \textbf{Задание} & \textbf{Баллы} & \textbf{S1} & \textbf{S2} & \textbf{S3} & \textbf{S4} \\
+    \midrule
+    Обнаружено короткое замыкание №1 & \firstKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Обнаружено короткое замыкание №2 & \secondKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Обнаружено короткое замыкание №3 & \thirdKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Нажата кнопка короткого замыкания №1 & \writeButtonsecondKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Нажата кнопка короткого замыкания №2 & \writeButtonfirstKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Нажата кнопка короткого замыкания №3 & \writeButtonthirdKZ & $\square$ & $\square$ & $\square$ & $\square$ \\
+    \midrule
+    Кнопка нажата неверно (максимум 3 раза за попытку)  & \WrongButton & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ \\
+    \midrule
+    \textbf{Баллы за попытку} & & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} \\
+    \midrule
+    \textbf{Лучший результат (S)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt}} \\
+    \midrule
+    \textbf{Оставшееся время (T)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt} сек} \\
+    \midrule
+    \textbf{Бонус за время (B)} & \multicolumn{5}{c}{$(600 - T) \times \dfrac{S}{500} \times \dfrac{1}{6}$} \\
+    \bottomrule
+    \textbf{Итоговый балл (S) + (B)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt}} \\
+\end{tabularx}
+
+\end{document}

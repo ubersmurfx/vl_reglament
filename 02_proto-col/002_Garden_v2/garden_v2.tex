@@ -1,0 +1,97 @@
+\pdfoutput=1
+\documentclass[12pt]{article}
+\usepackage[margin=2.5cm, top=1cm]{geometry}
+
+% Required packages
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathrsfs} % Mathematical typesetting and symbols
+\usepackage{enumerate} % Custom enumeration labels
+\usepackage{graphicx} % Figure inclusion
+\usepackage{fancyhdr} % Перемещено сюда
+\usepackage{hyperref} % Hyperlinks for citations, references, and URLs
+\usepackage[numbers,sort&compress]{natbib} % Citation styling
+\usepackage{subcaption} % Captions for subfigures
+\usepackage{xcolor} % Text color
+\usepackage[utf8x]{inputenc} % кодировка
+\usepackage[english,russian]{babel} % добавление русского языка
+\usepackage{cmap} % отображение юникод символов в pdf файле
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{ulem}
+\usepackage{tabularx}
+\usepackage{array} % Для выравнивания по правому краю
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\input{../../footer_options}
+
+\usetikzlibrary{decorations.pathreplacing}
+
+% Figure and table numbering by section
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+\newenvironment{example}[1][]{\begin{ex}[#1]}{\hfill$\blacksquare$\end{ex}} % Add a black box to the end automatically, and accept an optional title argument
+\newtheorem{ex}{Example}[section] % Examples are implemented as a type of Theorem
+
+% Overriding abbrvnat BibTeX template to use the plainurl template's DOI hyperlinks
+\newcommand*{\doi}[1]{\href{https://doi.org/#1}{\tt doi:~#1}}
+\newcommand{\wrongPlod}{\color{red}-50}
+\newcommand{\DetectPlod}{40}
+\newcommand{\CatchPlod}{50}
+\newcommand{\RottenPlod}{60}
+\newcommand{\CatchRottenPlod}{100}
+\newcommand{\StoredRottenPlod}{70}
+\renewcommand{\arraystretch}{1}
+
+%==============================================================================
+\AddToShipoutPictureBG*{
+    \ifnum\value{page}=1
+        \put(2cm,26cm){\includegraphics[width=1.5cm]{figures/cup.jpg}}
+    \fi
+}
+
+% background
+\date{} % Добавлено для удаления даты
+\title{Протокол для очного этапа \\ Хакатона:«Сбор урожая»}
+
+%==============================================================================
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\vspace*{-1.5cm}
+
+\raisebox{1cm}{\begin{minipage}[t]{1\textwidth} % 0.8\textwidth - регулирует ширину minipage
+    \begin{spacing}{2} % Устанавливает межстрочный интервал в 1.5 раза
+        \textbf{Команда:} \uline{\hspace*{\fill}} \\
+        \textbf{Участник:} \uline{\hspace*{10cm}} / \uline{\hspace*{\fill}} \\
+        \textbf{Судья:} \uline{\hspace*{10.7cm}} / \uline{\hspace*{\fill}} 
+    \end{spacing}
+    \end{minipage}}
+
+
+\vspace*{0.25cm}
+\setlength{\extrarowheight}{12pt}
+\begin{tabularx}{\textwidth}{>{\raggedright}X c *{4}{>{\centering\arraybackslash}p{1.3cm}}}
+    \toprule
+    \textbf{Задание} & \textbf{Баллы} & \textbf{S1} & \textbf{S2} & \textbf{S3} & \textbf{S4} \\
+    \midrule
+    Распознан заданный овощ/фрукт & \DetectPlod & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$ \\
+    Собран правильный овощ/фрукт & \CatchPlod & $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$& $\square$ $\square$ $\square$ & $\square$ $\square$ $\square$\\
+    Распознан сгнивший овощ/фрукт & \RottenPlod & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Захвачен сгнивший овощ/фрукт & \CatchRottenPlod & $\square$ & $\square$ & $\square$ & $\square$ \\
+    Перемещен сгнивший овощ/фрукт в контейнер & \StoredRottenPlod & $\square$ & $\square$ & $\square$ & $\square$ \\
+    \midrule
+    Собран неправильный овощ/фрукт  & \wrongPlod & $\square$ $\square$ & $\square$ $\square$ & $\square$ $\square$ & $\square$ $\square$ \\
+    \midrule
+    \textbf{Баллы за попытку} & & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} & \rule{1cm}{0.5pt} \\
+    \midrule
+    \textbf{Лучший результат (S)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt}} \\
+    \midrule
+    \textbf{Оставшееся время (T)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt} сек} \\
+    \midrule
+    \textbf{Бонус за время (B)} & \multicolumn{5}{c}{$(600 - T) \times \dfrac{S}{500} \times \dfrac{1}{6}$} \\
+    \bottomrule
+    \textbf{Итоговый балл (S) + (B)} & \multicolumn{5}{c}{\rule{2cm}{0.5pt}} \\
+\end{tabularx}
+
+\end{document}
