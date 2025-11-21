@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.11.15)  16 NOV 2025 01:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.4.1)  21 NOV 2025 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -42,7 +42,7 @@ and I'll forget about whatever was undefined.
 ! You can't use `\raise' in vertical mode.
 \put  ...itsset \@tempdimc {#2}\unitlength \raise 
                                                   \@tempdimc \hb@xt@ \z@ {\@...
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -52,7 +52,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing number, treated as zero.
 <to be read again> 
                    \hbox 
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -61,7 +61,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \hbox 
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -73,7 +73,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Undefined control sequence.
 <argument> ...fontsize {14}{14}\selectfont \color 
                                                   {gray!75} «Кубок Р�...
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -88,7 +88,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -102,7 +102,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -115,7 +115,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -128,7 +128,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -141,7 +141,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -154,7 +154,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -167,7 +167,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -180,7 +180,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -193,7 +193,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -206,7 +206,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -219,7 +219,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -232,7 +232,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -245,7 +245,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -258,7 +258,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -271,7 +271,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -284,7 +284,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -297,7 +297,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -310,7 +310,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -323,46 +323,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! LaTeX Error: Unicode character С (U+0421)
+! LaTeX Error: Unicode character Ф (U+0424)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character и (U+0438)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
-                                                  
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-! LaTeX Error: Unicode character р (U+0440)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -375,33 +349,46 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! LaTeX Error: Unicode character у (U+0443)
+! LaTeX Error: Unicode character н (U+043D)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-! LaTeX Error: Unicode character с (U+0441)
+! LaTeX Error: Unicode character а (U+0430)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character л (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -413,7 +400,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -427,7 +414,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -440,7 +427,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -453,7 +440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -466,7 +453,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -479,7 +466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -492,7 +479,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -505,7 +492,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...�ус», 26-28 ноября 2025 г.\par}}
+l.10 ...�ал», 26-28 ноября 2025 г.\par}}
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -553,11 +540,11 @@ Overfull \hbox (3.91661pt too wide) in paragraph at lines 10--10
 
  
 Here is how much of TeX's memory you used:
- 44 strings out of 475656
- 623 string characters out of 5787140
+ 45 strings out of 474222
+ 628 string characters out of 5748734
  1922975 words of memory out of 5000000
- 22157 multiletter control sequences out of 15000+600000
+ 22398 multiletter control sequences out of 15000+600000
  558367 words of font info for 37 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
- 19i,2n,30p,154b,123s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1141 hyphenation exceptions out of 8191
+ 19i,2n,30p,152b,124s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
